@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd v0.39.0 && npm i && cd ../v0.40.0 && npm i && cd ../v0.41.0 && npm i && cd ../v0.42.0 && npm i",
     "test-with-wooster": "node test-wooster.js",
     "test-without-wooster": "node test.js",
     "test": "node test-wooster.js"
