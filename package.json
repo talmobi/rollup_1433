@@ -1,0 +1,14 @@
+{
+  "name": "rollup_1433",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-with-wooster": "node test-wooster.js",
+    "test-without-wooster": "node test.js",
+    "test": "node test-wooster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
